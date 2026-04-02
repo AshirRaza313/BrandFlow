@@ -20912,7 +20912,7 @@ export default function App() {
     try {
       const uRef = fsDoc(fb_db,"users",fbUser.uid);
       let uSnap  = await fsGet(uRef);
-      let userRole = fbUser.email===OWNER_EMAIL ? "owner" : "member";
+      let userRole = "member"; // default
       let userPts  = 0, userOrds = 0, userPenalty = null;
 
       if (!uSnap.exists()) {
@@ -20923,7 +20923,7 @@ export default function App() {
         });
       } else {
         const d = uSnap.data();
-        userRole = fbUser.email===OWNER_EMAIL ? "owner" : (d.role||"member");
+        userRole = d.role || "member";
         userPts  = d.points||0;
         userOrds = d.orderCount||0;
         userPenalty = d.penalty?.active ? d.penalty : null;
