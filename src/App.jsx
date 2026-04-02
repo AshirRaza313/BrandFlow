@@ -1390,7 +1390,7 @@ function Header({ user, role, points, onSignOut, unreadCount=0, onBellClick, the
             BrandFlow
           </h1>
           <p style={{ fontSize:11, color:C.muted, fontFamily:"Cormorant Garamond, serif",
-            fontStyle:"italic" }}>Khushboo That Speaks for You.</p>
+            fontStyle:"italic" }}>The Pulse of Your Business.</p>
         </div>
       </div>
 
