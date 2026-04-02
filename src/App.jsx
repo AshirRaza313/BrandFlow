@@ -1236,7 +1236,7 @@ function LoginScreen({ onLogin }) {
             WebkitTextFillColor:"transparent", backgroundSize:"200%", animation:"shimmer 3s ease infinite",
             marginBottom:6 }}>BrandFlow</h1>
           <p style={{ fontFamily:"Cormorant Garamond, serif", fontStyle:"italic", color:C.muted, fontSize:15 }}>
-            Khushboo That Speaks for You.
+            The Pulse of Your Business.
           </p>
           <p style={{ fontSize:11, color:C.muted, letterSpacing:2, marginTop:8, fontFamily:"DM Sans, sans-serif" }}>
             TEAM PORTAL · KARACHI 🇵🇰
