@@ -13,7 +13,7 @@ const BRAND = {
   status: "Pre-Launch",
   city: "Karachi",
   country: "Pakistan",
-  industry: "Luxury Perfume / Fragrance",
+  industry: "Tech SaaS",
   primaryColor: "#C9A84C",
   totalBottles: 300,
   totalProducts: 6,
