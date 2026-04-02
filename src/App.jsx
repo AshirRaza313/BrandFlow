@@ -1190,7 +1190,7 @@ function LoadingScreen() {
           fontSize:15,
           letterSpacing:"0.5px",
         }}>
-          Khushboo That Speaks for You.
+          The Pulse of Your Business.
         </p>
       </div>
     </div>
