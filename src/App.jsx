@@ -13,12 +13,12 @@ import { useState, useEffect, useRef, useCallback } from "react";
 
 // ─── USER UPDATES THESE ─────────────────────────────────────────────────────
 const firebaseConfig = {
-  apiKey: "AIzaSyxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  apiKey: "AIzaSyDV2987EZESHtp3tX_XJbAuMX-cbGouhS0",
   authDomain: "brandflow-695b6.firebaseapp.com",
   projectId: "brandflow-695b6",
   storageBucket: "brandflow-695b6.firebasestorage.app",
-  messagingSenderId: "9876543210",
-  appId: "x:xxxxxxxxxxxxxxxxxxxxxxxx"
+  messagingSenderId: "306862691304",
+  appId: "1:306862691304:web:3afb724f7fc861c1ecca5d"
 };
 const OWNER_EMAIL   = "aashirm313@gmail.com";
 
