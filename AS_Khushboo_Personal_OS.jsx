@@ -6,10 +6,10 @@ const API = "https://api.anthropic.com/v1/messages";
 // REAL BRAND DATA — AS KHUSHBOO
 // ═══════════════════════════════════════════════
 const BRAND = {
-  name: "#AS KHUSHBOO",
-  nameClean: "AS KHUSHBOO",
-  tagline: "Khushboo That Speaks for YOU.",
-  taglineUrdu: "خوشبو جو آپ کے لیے بولتی ہے",
+  name: "BrandFlow",
+  nameClean: "BrandFlow",
+  tagline: "The Pulse of Your Business.",
+  taglineUrdu: "آپ کے کاروبار کی نبض۔",
   status: "Pre-Launch",
   city: "Karachi",
   country: "Pakistan",
@@ -88,11 +88,11 @@ const PRODUCTS = [
 // ═══════════════════════════════════════════════
 // AI BRAIN — MULTI-LANGUAGE
 // ═══════════════════════════════════════════════
-const BRAND_BRAIN = `You are the AI Business Manager for #AS KHUSHBOO — a luxury perfume brand from Karachi, Pakistan, currently in Pre-Launch stage.
+const BRAND_BRAIN = `You are the AI Business Manager for BrandFlow — a Tech SaaS brand from Karachi, Pakistan, currently in Pre-Launch stage.
 
 BRAND DNA:
-- Name: #AS KHUSHBOO
-- Tagline: "Where Fragrance Becomes Identity."
+- Name: BrandFlow
+- Tagline: "The Pulse of Your Business."
 - Status: PRE-LAUNCH — all products ready, 50 bottles each (300 total)
 - City: Karachi, Pakistan
 - Industry: Luxury Perfume / Fragrance
@@ -596,7 +596,7 @@ export default function App() {
             <div style={{ background:"rgba(255,255,255,0.016)", border:`1px solid ${BR}`, borderRadius:"16px", padding:"20px", minHeight:"360px", maxHeight:"400px", overflowY:"auto", marginBottom:"12px", display:"flex", flexDirection:"column", gap:"14px" }}>
               {msgs.length === 0 && (
                 <div style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", gap:"12px", padding:"20px 0" }}>
-                  <div style={{ fontFamily:"'Cinzel',serif", fontSize:"22px", color:MU, textAlign:"center", letterSpacing:"2px" }}>AS KHUSHBOO</div>
+                  <div style={{ fontFamily:"'Cinzel',serif", fontSize:"22px", color:MU, textAlign:"center", letterSpacing:"2px" }}>BrandFlow</div>
                   <div style={{ fontFamily:"'Cormorant Garamond',serif", fontSize:"15px", color:"rgba(245,239,230,0.25)", fontStyle:"italic" }}>{AI_MODULES[aiMod].title} ready hai</div>
                   <div style={{ fontSize:"11px", color:"rgba(245,239,230,0.2)", marginBottom:"8px" }}>English · اردو · Roman Urdu · العربية — sab samajhta hai</div>
                   <div style={{ display:"flex", flexWrap:"wrap", gap:"8px", justifyContent:"center" }}>
